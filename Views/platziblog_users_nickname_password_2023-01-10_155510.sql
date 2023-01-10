@@ -5,3 +5,5 @@
 
 
 CREATE OR REPLACE VIEW `users_nickname_password` AS select `users`.`nickname` AS `nickname`,`users`.`password` AS `password` from `users`;
+select *
+from users_nickname_password;
